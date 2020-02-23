@@ -1,0 +1,48 @@
+@import url("./root.css");
+header h1 {
+  text-align: center;
+}
+
+main {
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.mapImg {
+  padding: 5px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackForm {
+  margin-top: 50px;
+}
+
+.feedbackForm .title {
+  text-align: center;
+  font-size: 1em;
+}
+
+.feedbackForm .form {
+  margin: 0 auto;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.feedbackForm .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feedbackForm .controls button {
+  margin: auto;
+  background-color: #9F0;
+}
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,39 @@
+@import url("./root.css");
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.mapImg {
+    padding: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+}
+
+.feedbackForm {
+    margin-top: 50px;
+    .title {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .form {
+        margin: 0 auto;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .controls {
+        display: flex;
+
+        button {
+            margin: auto;
+            background-color: #9F0;
+        }
+    }
+}

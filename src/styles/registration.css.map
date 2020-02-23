@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,iBAAI;AAGZ,AAAA,MAAM,CAAC,EAAE,CAAC;EACN,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,iBAAiB,CAAC;EACd,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAOzB;;AAXD,AAOQ,iBAPS,CAMb,SAAS,CACL,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "registration.scss"
+    ],
+    "names": [],
+    "file": "registration.css"
+}

@@ -1,0 +1,15 @@
+@import url("./root.css");
+
+header h1 {
+    text-align: center;
+}
+main {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+
+    ul:last-child {
+        li:last-child {
+            list-style: square;
+        }
+    }
+}

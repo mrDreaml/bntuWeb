@@ -1,0 +1,27 @@
+@import url("./root.css");
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+        list-style: none;
+        border-radius: 5px;
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+    }
+}

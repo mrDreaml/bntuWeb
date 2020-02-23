@@ -1,0 +1,33 @@
+@import url("./root.css");
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */

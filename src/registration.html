@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/registration.css">
+    <title>registration</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Registration</h1>
+        </header>
+        <main>
+            <section class="registrationForm">
+                <input type="text" name="surname" placeholder="surname">
+                <input type="text" name="name" placeholder="name">
+                <div class="addPhoto">
+                    <button>add photo</button>
+                </div>
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="password" placeholder="password">
+                <input type="text" placeholder="site" name="site" value="http://">
+                <div class="gender">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+                <input type="text" name="dateOfBirth" placeholder="date of birth">
+                <textarea name="about" cols="30" rows="10" placeholder="about"></textarea>
+                <div class="controls">
+                    <button class="regist">Registration</button>
+                    <button>Clean form</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@import url("./root.css");
+header h1 {
+  text-align: center;
+}
+
+.registrationForm {
+  margin: 0 auto;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.registrationForm .controls .regist {
+  background-color: #9F0;
+}
+/*# sourceMappingURL=registration.css.map */

@@ -1,0 +1,19 @@
+@import url("./root.css");
+
+
+header h1 {
+    text-align: center;
+}
+
+.registrationForm {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    .controls {
+        .regist {
+            background-color: #9F0;
+        }
+    }
+}
